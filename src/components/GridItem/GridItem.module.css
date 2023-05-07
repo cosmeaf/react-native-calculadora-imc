@@ -1,0 +1,54 @@
+/* Griditem Components */
+
+.main{
+    flex: 1;
+    color: #FFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.gridIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+}
+
+.gridIcon img{
+    max-width: 60px;
+}
+
+.gridTitle{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2px;
+    text-align: center;
+}
+
+.gridInfo{
+    font-size: 12px;
+    text-align: center;
+}
+
+.yourImc{
+    font-size: 20px;
+    margin:20px 0 50px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.btnprevious{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.btnprevious img{
+    position: absolute;
+    margin: 85px auto;
+    left: -35px;
+    width: 50px;
+    height: 50px;
+}
